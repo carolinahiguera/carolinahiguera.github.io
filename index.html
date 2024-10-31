@@ -24,15 +24,25 @@
                                     <p style="text-align:center">
                                         <name>Carolina Higuera</name>
                                     </p>
-                                    <p>I am a 3rd year Ph.D. student in the Paul G. Allen School at University of Washington, advised by Professor <a href="https://homes.cs.washington.edu/~bboots/">Byron Boots</a>. I'm interested in robot manipulation and tactile sensing.
-
-                                        I am very proud to be a Fulbright scholar, cohort 2021 from Colombia &#127464;&#127476;. 
+                                    <p>I am a 4th-year Ph.D. student in the Paul G. Allen School at the University of Washington, where I am advised by <a href="https://homes.cs.washington.edu/~bboots/">Byron Boots</a>. Additionally, I am a visiting researcher at Meta, working with <a href="https://www.mustafamukadam.com/">Mustafa Mukadam</a> as part of the AIM mentorship program.
+                                        
                                     </p>
+                                    
                                     <p>
                                         I received my M.S. in Electronics Engineering from Universidad de los Andes, Bogota, Colombia. There, I worked on multiagent reinforcement learning for traffic light signal control.
                                     </p>
+
                                     <p>
-                                        Contact: chiguera [at] cs [dot] washington [dot] edu
+                                        I am honored to be a Fulbright scholar from Colombia &#127464;&#127476; 
+                                    </p>
+
+                                    <p>
+                                        Contact: 
+                                        <ul>
+                                            <li>chiguera [at] cs [dot] washington [dot] edu</li>
+                                            <li>carohiguera [at] meta [dot] com</li>
+                                        </ul>
+
                                     </p>
                                     <p align=center>
                                         <a href="mailto:chiguera@cs.washington.edu">Email</a> &nbsp/&nbsp
@@ -55,7 +65,9 @@
                                 <td style="padding:20px;width:100%;vertical-align:middle">
                                     <heading>Research</heading>
                                     <p>
-                                        My research focuses on developing models that allow robot manipulators capable of interpreting their world through vision-based tactile perception. In my work, I have focused on tracking extrinsic contacts between object and environment. My goal is to learn policies that can control those contacts, to make robots versatile in manipulation tasks. Specifically, my research topics include tactile sensing, neural fields, and reinforcement learning.  
+                                        My research focuses on developing models that enable robot manipulators to interpret their environment through vision-based tactile perception. Specifically, I've been exploring how tracking extrinsic contacts between objects and their environment can be advantageous for policy learning. 
+                                        
+                                        However, to truly leverage touch in robotics, we need a common backbone. Currently, I'm working on learning tactile representations using self-supervised learning that can be versatile for both static and dynamic contact interactions via vision-based tactile sensing
                                     </p>
                                 </td>
                             </tr>
@@ -69,6 +81,8 @@
                                 <td style="padding:20px;width:100%;vertical-align:middle">
                                     <heading>Updates</heading>
                                     <ul>
+                                        <li>Visitor Researcher 
+                                            at FAIR and GUM team,  advised by Mustafa Mukadam.</li>
                                         <li>Summer 2023 research internship at FAIR with the GUM team and advised by Mustafa Mukadam.</li>
                                         <li>NCF paper accepted at ICRA 2023</li>
                                       </ul>
@@ -77,11 +91,13 @@
                         </tbody>
                     </table>
 
+                   
+
                     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
                             <tr>
                                 <td style="padding:20px;width:100%;vertical-align:middle">
-                                    <heading>Preprint</heading>
+                                    <heading>Publications</heading>
                                 </td>
                             </tr>
                         </tbody>
@@ -89,6 +105,41 @@
                     <table
                         style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                         <tbody>
+
+                            <tr>
+                                <td style="padding:10px;width:30%;vertical-align:middle">
+                                    <img src='images/sparsh.gif' width="100%" />
+                                    <!--<img src='images/mug_cut.gif' width="100%" />-->
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a href="https://ai.meta.com/research/publications/sparsh-self-supervised-touch-representations-for-vision-based-tactile-sensing/">
+                                        <papertitle>Sparsh: Self-supervised touch representations for vision-based tactile sensing</papertitle>
+                                    </a>
+                                    <br>
+                                    <strong>Carolina Higuera*</strong>,
+                                    <a>Akash Sharma</a>,
+                                    <a>Chaithanya Krishna Bodduluri</a>,
+                                    <a>Taosha Fan</a>,
+                                    <a>Patrick Lancaster</a>,
+                                    <a>Mrinal Kalakrishnan</a>,
+                                    <a>Michael Kaes</a>,
+                                    <a>Byron Boots</a>,
+                                    <a>Mike Lambeta</a>,
+                                    <a>Tingfan Wu</a>,
+                                    <a>Mustafa Mukadam</a>
+                                    <br>
+                                    <em>CoRL, 2024</em>
+                                    <br>
+                                    <a href="https://github.com/facebookresearch/sparsh">[code]</a>
+                                    <!-- <p style="color:rgb(229, 118, 8);">
+                                        Best Paper Award, ICRA 2023 Workshop on Effective Representations, Abstractions, and Priors for Robot Learning, <a href="https://sites.google.com/view/rap4robots">(RAP4Robots)</a>
+                                    </p> -->
+                                    <p></p>
+                                    <p>
+                                        Sparsh is a family of general touch representations trained via self-supervision algorithms such as MAE, DINO and JEPA. Sparsh is able to generate useful representations for DIGIT, Gelsight'17 and Gelsight Mini. It outperforms end-to-end models in the downstream tasks proposed in TacBench by a large margin, and can enable data efficient training for new downstream tasks.
+                                    </p>
+                                </td>
+                            </tr>
 
                             <tr>
                                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -144,24 +195,6 @@
                                     </p>
                                 </td>
                             </tr>
-
-                        </tbody>
-                    </table>
-
-
-
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                            <tr>
-                                <td style="padding:20px;width:100%;vertical-align:middle">
-                                    <heading>Publications</heading>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <table
-                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
 
                             <tr>
                                 <td style="padding:20px;width:25%;vertical-align:middle">

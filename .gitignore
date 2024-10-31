@@ -5,6 +5,7 @@ _config.yml
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.DS_Store
 404.html
 about.markdown
 index.markdown
